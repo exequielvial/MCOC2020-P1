@@ -52,7 +52,7 @@ x = sol[:,0]
 y = sol[:,1]
 z = sol[:,2]
 
-#gráfico radio(t)
+#gráfico radio(t)  Para este y para el siguiente se debe cambiar time = 3,29*3600
 '''/plt.plot(t, np.sqrt(x**2+y**2+z**2))
 
 plt.hlines(y=6371000,xmin=0,xmax=13000,color="r")
