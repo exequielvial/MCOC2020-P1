@@ -78,7 +78,7 @@ margen = pos_final - x[-1]
 
 
 
-normaMargen = np.sqrt(pos_final[0]**2+pos_final[1]**2+pos_final[2]**2) - np.sqrt(x[-1][0]**2+x[-1][1]**2+x[-1][2]**2)
+normaMargen = np.sqrt(margen[0]**2+margen[1]+margen[2]**2)
 
 print('\n')
 print( 'Diferencia de las posiciones: ', normaMargen, 'metros')
