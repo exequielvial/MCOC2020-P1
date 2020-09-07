@@ -12,3 +12,5 @@
 * ¿Cuantas subdivisiones hay que usar para que la predicción con eulerint al final del tiempo esté en menos de un 1% de error?
   * Intenté con 187 subdivisiones y me dió un margen de error cercano a 1%, considerando que es tarde y tengo sueño no voy a correrlo para más por temas de tiempo, pero yo creo que por ese orden debería exister un error cercano al 1%, el gráfico quedó como se muestra a continuación y el programa se demoró 142 segundos en correr en mi computador lo cual es harto debido a que al eulerint toma parámetros más específicos.
   * https://github.com/exequielvial/MCOC2020-P1/issues/6#issue-694709181
+* Implemente las correcciones J2 y J3. Repita los gráficos de arriba para su caso particular. ¿Cuánta deriva incurre al agregar las correcciones J2 y J3? ¿Cuanto se demora su código en correr?
+ * Con J2 y J3 tarda un poco más en correr pero los resultados son más cercanos a los sin estas funciones.
